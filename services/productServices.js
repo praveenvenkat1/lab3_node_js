@@ -10,7 +10,7 @@ const searchService = function(callback) {
             callback(null, rows);
         }
     });
-};
+}; 
 const searchIDService = function(reference, callback) {
     productDAO.findByID(reference, function(err, rows) {
         if (err) {

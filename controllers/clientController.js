@@ -1,4 +1,4 @@
-const { Client } = require("../models/entities");
+const { Client } = require("../models/entities"); 
 
 const loginControl = (request, response) => {
   const clientServices = require("../services/clientServices");

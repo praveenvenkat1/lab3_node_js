@@ -1,5 +1,5 @@
 const database = require('./dbQuery');
-
+ 
 function findAll(callback) {
     const selectProducts = "SELECT * from article; ";
     database.getResult(selectProducts, function(err, rows) {

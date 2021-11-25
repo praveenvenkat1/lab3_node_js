@@ -12,7 +12,7 @@ class Client {
         this.fax = fax;
         this.max_outstanding = max_outstanding;
     }
-}
+} 
 
 class Product {
     constructor(reference, category, name, supplier, price, vat, stock, critical_stock) {

@@ -1,4 +1,4 @@
-const getCatalogue = (request, response) => {
+const getCatalogue = (request, response) => { 
     const catalogServices = require("../services/productServices");
     catalogServices.searchService(function (err, rows) {
       response.render("catalog", { products: rows });

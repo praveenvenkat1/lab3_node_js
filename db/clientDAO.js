@@ -1,4 +1,4 @@
-const database = require("./dbQuery");
+const database = require("./dbQuery"); 
 const bcrypt = require("bcryptjs");
 
 //select all clients

@@ -1,2 +1,2 @@
 # Lab-3
-This is a shopping website built using nodejs
+Built a online shopping application using node.js
