@@ -1,0 +1,27 @@
+<%- include('header'); -%>
+    <div class="content">
+        <h1>Clients</h1>
+        <table id="client">
+            <thead>
+                <tr>
+                    <th scope="col">Client</th>
+                    <th scope="col">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% clients.forEach(client=> { %>
+                    <tr>
+                        <th scope="row">
+                            <%= client.num_client %>
+                        </th>
+                        <td>
+                            <a href="/api/clientdetails/<%= client.num_client %>">
+                                <%= client.username %>
+                            </a>
+                        </td>
+                    </tr>
+                    <% }) %>
+            </tbody>
+        </table>
+    </div><br>
+    <%- include('footer'); -%>

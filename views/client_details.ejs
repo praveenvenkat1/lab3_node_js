@@ -1,0 +1,85 @@
+<%- include('header'); -%>
+
+    <div class="content">
+
+        <h1>Selected Client</h1>
+
+        <table id="clientdetails">
+
+            <tr>
+
+                <th scope="row">Name</th>
+
+                <td><%= name %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Society</th>
+
+                <td><%= clients.society %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Contact</th>
+
+                <td><%= clients.contact %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Address</th>
+
+                <td><%= clients.addres %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Zipcode</th>
+
+                <td><%= clients.zipcode %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">City</th>
+
+                <td><%= clients.city %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Phone</th>
+
+                <td><%= clients.phone %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Fax</th>
+
+                <td><%= clients.fax %></td>
+
+            </tr>
+
+            <tr>
+
+                <th scope="row">Max Outstanding</th>
+
+                <td><%= clients.max_outstanding %></td>
+
+            </tr>
+
+        </table>    
+
+    </div><br>
+
+<%- include('footer'); -%>

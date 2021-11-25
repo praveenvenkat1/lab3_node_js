@@ -1,0 +1,28 @@
+<%- include('header'); -%>
+    <div class="content">
+    <h1 id="welcome">Register</h1>
+    <form action="/api/register" method="post">
+        Username: 
+        <input type="text" name="username" id="username" /> <br>
+        Password:
+        <input type="password" id="password" name="password" /> <br>
+        Society:
+        <input type="text" name="society" id="society" /> <br>
+        Contact:
+        <input type="text" name="contact" id="contact" /> <br>
+        Address:
+        <input type="text" name="addres" id="addres" /><br> 
+        Zip Code:
+        <input type="text" name="zipcode" id="zipcode" /><br> 
+        City:
+        <input type="text" name="city" id="city" /> <br>
+        Phone:
+        <input type="text" name="phone" id="phone" /> <br>
+        Fax:
+        <input type="text" name="fax" id="fax" /> <br>
+        Max Outstanding:
+        <input type="text" name="max_outstanding" id="max_outstanding" /><br>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+<%- include('footer'); -%>
